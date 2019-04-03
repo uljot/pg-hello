@@ -30,3 +30,7 @@ function userInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function goToCard() {
+	window.location.href = "card.html";
+}
