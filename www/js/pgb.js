@@ -20,3 +20,13 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function userInfo() {
+
+	info =  'Hi, I know where you live :-)' + '\n' +
+			'=====' + '\n' +
+			'Your name    : username\n';
+
+	navigator.notification.alert(info);
+	
+}
