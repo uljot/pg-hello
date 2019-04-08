@@ -50,9 +50,9 @@ function checkConnection() {
     states[Connection.CELL]     = 'Cell generic connection';
     states[Connection.NONE]     = 'No network connection';
 
-    document.getElementById("status").innerText="1";
+    document.getElementById("status").innerText= "Typ połączenia: " + states[networkState] + ". ;)";
 }
 
 function onOffline() {
-    document.getElementById("status").innerText="0";
+    document.getElementById("status").innerText="Brak połączenia. ; )";
 }
