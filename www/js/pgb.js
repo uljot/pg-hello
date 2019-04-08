@@ -1,5 +1,7 @@
 function init() {
 	document.addEventListener("deviceready",onDeviceReady, false);
+	document.addEventListener("offline",onOffline, false);
+	document.addEventListener("online",checkConnection, false);
 }
 
 function onDeviceReady() {
@@ -48,5 +50,9 @@ function checkConnection() {
     states[Connection.CELL]     = 'Cell generic connection';
     states[Connection.NONE]     = 'No network connection';
 
-    navigator.notification.alert('Connection type: ' + states[networkState]);
+    document.getElementById("status").innerText="1";
+}
+
+function onOffline() {
+    document.getElementById("status").innerText="0";
 }
