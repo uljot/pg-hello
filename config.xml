@@ -6,13 +6,14 @@
 
     <name>First app</name>
     <description>My first mobile app</description>
-    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
-		John Brown
+    <author href="https://github.com/uljot/pg-hello" email="uljot@example.com">
+		uljot
 	</author>
 	<platform name="android" />
 	
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
 	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
 	<plugin name="cordova-plugin-network-information" spec="2.0.1" />
+	<plugin name="cordova-plugin-device-motion" spec="2.0.1" />
 
 </widget>
