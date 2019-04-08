@@ -7,6 +7,7 @@ function init() {
 function onDeviceReady() {
 	navigator.notification.beep(1);
 	console.log(navigator.accelerometer);
+	navigator.splashscreen.show();
 }
 
 var watchID = navigator.accelerometer.watchAcceleration(accelerometerSuccess,

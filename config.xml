@@ -9,6 +9,9 @@
     <author href="https://github.com/uljot/pg-hello" email="uljot@example.com">
 		uljot
 	</author>
+
+	<preference name="SplashScreen" value="screen" />
+
 	<platform name="android"> 
 		<icon src="www/img/android.png" density="mdpi" />
 		<icon src="www/img/android.png" density="ldpi" />
